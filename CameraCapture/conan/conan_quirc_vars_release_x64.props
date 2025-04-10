@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <ConanquircRootFolder>C:/Users/Asiula/.conan2/p/quirc4a07504dcabda/p</ConanquircRootFolder>
+    <ConanquircBinaryDirectories></ConanquircBinaryDirectories>
+    <ConanquircCompilerFlags></ConanquircCompilerFlags>
+    <ConanquircLinkerFlags></ConanquircLinkerFlags>
+    <ConanquircPreprocessorDefinitions></ConanquircPreprocessorDefinitions>
+    <ConanquircIncludeDirectories></ConanquircIncludeDirectories>
+    <ConanquircResourceDirectories></ConanquircResourceDirectories>
+    <ConanquircLibraryDirectories>$(ConanquircRootFolder)/lib;</ConanquircLibraryDirectories>
+    <ConanquircLibraries>quirc.lib;</ConanquircLibraries>
+    <ConanquircSystemLibs></ConanquircSystemLibs>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanopencv_opencv_stitchingRootFolder>C:/Users/Asiula/.conan2/p/b/opence148378c1f603/p</Conanopencv_opencv_stitchingRootFolder>
+    <Conanopencv_opencv_stitchingBinaryDirectories></Conanopencv_opencv_stitchingBinaryDirectories>
+    <Conanopencv_opencv_stitchingCompilerFlags></Conanopencv_opencv_stitchingCompilerFlags>
+    <Conanopencv_opencv_stitchingLinkerFlags></Conanopencv_opencv_stitchingLinkerFlags>
+    <Conanopencv_opencv_stitchingPreprocessorDefinitions></Conanopencv_opencv_stitchingPreprocessorDefinitions>
+    <Conanopencv_opencv_stitchingIncludeDirectories>$(Conanopencv_opencv_stitchingRootFolder)/include;</Conanopencv_opencv_stitchingIncludeDirectories>
+    <Conanopencv_opencv_stitchingResourceDirectories>$(Conanopencv_opencv_stitchingRootFolder)/res;</Conanopencv_opencv_stitchingResourceDirectories>
+    <Conanopencv_opencv_stitchingLibraryDirectories>$(Conanopencv_opencv_stitchingRootFolder)/lib;</Conanopencv_opencv_stitchingLibraryDirectories>
+    <Conanopencv_opencv_stitchingLibraries>opencv_stitching4100d.lib;</Conanopencv_opencv_stitchingLibraries>
+    <Conanopencv_opencv_stitchingSystemLibs></Conanopencv_opencv_stitchingSystemLibs>
+  </PropertyGroup>
+</Project>

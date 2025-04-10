@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanlibmp3lameRootFolder>C:/Users/Asiula/.conan2/p/b/libmpa4873d14f6bcf/p</Conanlibmp3lameRootFolder>
+    <Conanlibmp3lameBinaryDirectories></Conanlibmp3lameBinaryDirectories>
+    <Conanlibmp3lameCompilerFlags></Conanlibmp3lameCompilerFlags>
+    <Conanlibmp3lameLinkerFlags></Conanlibmp3lameLinkerFlags>
+    <Conanlibmp3lamePreprocessorDefinitions></Conanlibmp3lamePreprocessorDefinitions>
+    <Conanlibmp3lameIncludeDirectories></Conanlibmp3lameIncludeDirectories>
+    <Conanlibmp3lameResourceDirectories></Conanlibmp3lameResourceDirectories>
+    <Conanlibmp3lameLibraryDirectories>$(Conanlibmp3lameRootFolder)/lib;</Conanlibmp3lameLibraryDirectories>
+    <Conanlibmp3lameLibraries>mp3lame.lib;</Conanlibmp3lameLibraries>
+    <Conanlibmp3lameSystemLibs></Conanlibmp3lameSystemLibs>
+  </PropertyGroup>
+</Project>

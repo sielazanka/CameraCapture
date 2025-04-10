@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets">
+    <Import Condition="'$(conan_ffmpeg_avutil_props_imported)' != 'True'" Project="conan_ffmpeg_avutil.props"/>
+    <Import Condition="'$(conan_ffmpeg_avfilter_props_imported)' != 'True'" Project="conan_ffmpeg_avfilter.props"/>
+    <Import Condition="'$(conan_ffmpeg_swscale_props_imported)' != 'True'" Project="conan_ffmpeg_swscale.props"/>
+    <Import Condition="'$(conan_ffmpeg_avformat_props_imported)' != 'True'" Project="conan_ffmpeg_avformat.props"/>
+    <Import Condition="'$(conan_ffmpeg_avcodec_props_imported)' != 'True'" Project="conan_ffmpeg_avcodec.props"/>
+    <Import Condition="'$(conan_ffmpeg_swresample_props_imported)' != 'True'" Project="conan_ffmpeg_swresample.props"/>
+    <Import Condition="'$(conan_ffmpeg_postproc_props_imported)' != 'True'" Project="conan_ffmpeg_postproc.props"/>
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="conan_ffmpeg_avdevice_vars_release_x64.props"/>
+  </ImportGroup>
+  <PropertyGroup>
+    <ConanDebugPath>$(Conanffmpeg_avdeviceBinaryDirectories);$(ConanDebugPath)</ConanDebugPath>
+    <LocalDebuggerEnvironment>PATH=$(ConanDebugPath);%PATH%</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(Conanffmpeg_avdeviceIncludeDirectories)%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>$(Conanffmpeg_avdevicePreprocessorDefinitions)%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions>$(Conanffmpeg_avdeviceCompilerFlags) %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(Conanffmpeg_avdeviceLibraryDirectories)%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>$(Conanffmpeg_avdeviceLibraries)%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>$(Conanffmpeg_avdeviceSystemLibs)%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>$(Conanffmpeg_avdeviceLinkerFlags) %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <Midl>
+      <AdditionalIncludeDirectories>$(Conanffmpeg_avdeviceIncludeDirectories)%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>$(Conanffmpeg_avdeviceIncludeDirectories)%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>$(Conanffmpeg_avdevicePreprocessorDefinitions)%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+</Project>

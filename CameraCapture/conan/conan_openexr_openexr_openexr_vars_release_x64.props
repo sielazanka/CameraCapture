@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanopenexr_openexr_openexrRootFolder>C:/Users/Asiula/.conan2/p/opene8f3b887522885/p</Conanopenexr_openexr_openexrRootFolder>
+    <Conanopenexr_openexr_openexrBinaryDirectories></Conanopenexr_openexr_openexrBinaryDirectories>
+    <Conanopenexr_openexr_openexrCompilerFlags></Conanopenexr_openexr_openexrCompilerFlags>
+    <Conanopenexr_openexr_openexrLinkerFlags></Conanopenexr_openexr_openexrLinkerFlags>
+    <Conanopenexr_openexr_openexrPreprocessorDefinitions></Conanopenexr_openexr_openexrPreprocessorDefinitions>
+    <Conanopenexr_openexr_openexrIncludeDirectories></Conanopenexr_openexr_openexrIncludeDirectories>
+    <Conanopenexr_openexr_openexrResourceDirectories></Conanopenexr_openexr_openexrResourceDirectories>
+    <Conanopenexr_openexr_openexrLibraryDirectories>$(Conanopenexr_openexr_openexrRootFolder)/lib;</Conanopenexr_openexr_openexrLibraryDirectories>
+    <Conanopenexr_openexr_openexrLibraries>OpenEXR-3_2.lib;</Conanopenexr_openexr_openexrLibraries>
+    <Conanopenexr_openexr_openexrSystemLibs></Conanopenexr_openexr_openexrSystemLibs>
+  </PropertyGroup>
+</Project>

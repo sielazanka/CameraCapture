@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanopenexr_openexr_iexRootFolder>C:/Users/Asiula/.conan2/p/opene8f3b887522885/p</Conanopenexr_openexr_iexRootFolder>
+    <Conanopenexr_openexr_iexBinaryDirectories></Conanopenexr_openexr_iexBinaryDirectories>
+    <Conanopenexr_openexr_iexCompilerFlags></Conanopenexr_openexr_iexCompilerFlags>
+    <Conanopenexr_openexr_iexLinkerFlags></Conanopenexr_openexr_iexLinkerFlags>
+    <Conanopenexr_openexr_iexPreprocessorDefinitions></Conanopenexr_openexr_iexPreprocessorDefinitions>
+    <Conanopenexr_openexr_iexIncludeDirectories></Conanopenexr_openexr_iexIncludeDirectories>
+    <Conanopenexr_openexr_iexResourceDirectories></Conanopenexr_openexr_iexResourceDirectories>
+    <Conanopenexr_openexr_iexLibraryDirectories>$(Conanopenexr_openexr_iexRootFolder)/lib;</Conanopenexr_openexr_iexLibraryDirectories>
+    <Conanopenexr_openexr_iexLibraries>Iex-3_2.lib;</Conanopenexr_openexr_iexLibraries>
+    <Conanopenexr_openexr_iexSystemLibs></Conanopenexr_openexr_iexSystemLibs>
+  </PropertyGroup>
+</Project>

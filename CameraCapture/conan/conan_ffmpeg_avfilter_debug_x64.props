@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets">
+    <Import Condition="'$(conan_ffmpeg_avutil_props_imported)' != 'True'" Project="conan_ffmpeg_avutil.props"/>
+    <Import Condition="'$(conan_ffmpeg_swscale_props_imported)' != 'True'" Project="conan_ffmpeg_swscale.props"/>
+    <Import Condition="'$(conan_ffmpeg_avformat_props_imported)' != 'True'" Project="conan_ffmpeg_avformat.props"/>
+    <Import Condition="'$(conan_ffmpeg_avcodec_props_imported)' != 'True'" Project="conan_ffmpeg_avcodec.props"/>
+    <Import Condition="'$(conan_ffmpeg_swresample_props_imported)' != 'True'" Project="conan_ffmpeg_swresample.props"/>
+    <Import Condition="'$(conan_ffmpeg_postproc_props_imported)' != 'True'" Project="conan_ffmpeg_postproc.props"/>
+    <Import Condition="'$(conan_freetype_props_imported)' != 'True'" Project="conan_freetype.props"/>
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="conan_ffmpeg_avfilter_vars_debug_x64.props"/>
+  </ImportGroup>
+  <PropertyGroup>
+    <ConanDebugPath>$(Conanffmpeg_avfilterBinaryDirectories);$(ConanDebugPath)</ConanDebugPath>
+    <LocalDebuggerEnvironment>PATH=$(ConanDebugPath);%PATH%</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(Conanffmpeg_avfilterIncludeDirectories)%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>$(Conanffmpeg_avfilterPreprocessorDefinitions)%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions>$(Conanffmpeg_avfilterCompilerFlags) %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(Conanffmpeg_avfilterLibraryDirectories)%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>$(Conanffmpeg_avfilterLibraries)%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>$(Conanffmpeg_avfilterSystemLibs)%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>$(Conanffmpeg_avfilterLinkerFlags) %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <Midl>
+      <AdditionalIncludeDirectories>$(Conanffmpeg_avfilterIncludeDirectories)%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>$(Conanffmpeg_avfilterIncludeDirectories)%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>$(Conanffmpeg_avfilterPreprocessorDefinitions)%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+</Project>

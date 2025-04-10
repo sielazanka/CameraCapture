@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanlibwebp_webpdecoderRootFolder>C:/Users/Asiula/.conan2/p/b/libwe66e7b7a625ce2/p</Conanlibwebp_webpdecoderRootFolder>
+    <Conanlibwebp_webpdecoderBinaryDirectories></Conanlibwebp_webpdecoderBinaryDirectories>
+    <Conanlibwebp_webpdecoderCompilerFlags></Conanlibwebp_webpdecoderCompilerFlags>
+    <Conanlibwebp_webpdecoderLinkerFlags></Conanlibwebp_webpdecoderLinkerFlags>
+    <Conanlibwebp_webpdecoderPreprocessorDefinitions></Conanlibwebp_webpdecoderPreprocessorDefinitions>
+    <Conanlibwebp_webpdecoderIncludeDirectories></Conanlibwebp_webpdecoderIncludeDirectories>
+    <Conanlibwebp_webpdecoderResourceDirectories></Conanlibwebp_webpdecoderResourceDirectories>
+    <Conanlibwebp_webpdecoderLibraryDirectories>$(Conanlibwebp_webpdecoderRootFolder)/lib;</Conanlibwebp_webpdecoderLibraryDirectories>
+    <Conanlibwebp_webpdecoderLibraries>webpdecoder.lib;</Conanlibwebp_webpdecoderLibraries>
+    <Conanlibwebp_webpdecoderSystemLibs></Conanlibwebp_webpdecoderSystemLibs>
+  </PropertyGroup>
+</Project>

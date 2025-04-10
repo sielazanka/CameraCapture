@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanopencv_opencv_videoio_aliasRootFolder>C:/Users/Asiula/.conan2/p/b/opence148378c1f603/p</Conanopencv_opencv_videoio_aliasRootFolder>
+    <Conanopencv_opencv_videoio_aliasBinaryDirectories></Conanopencv_opencv_videoio_aliasBinaryDirectories>
+    <Conanopencv_opencv_videoio_aliasCompilerFlags></Conanopencv_opencv_videoio_aliasCompilerFlags>
+    <Conanopencv_opencv_videoio_aliasLinkerFlags></Conanopencv_opencv_videoio_aliasLinkerFlags>
+    <Conanopencv_opencv_videoio_aliasPreprocessorDefinitions></Conanopencv_opencv_videoio_aliasPreprocessorDefinitions>
+    <Conanopencv_opencv_videoio_aliasIncludeDirectories></Conanopencv_opencv_videoio_aliasIncludeDirectories>
+    <Conanopencv_opencv_videoio_aliasResourceDirectories></Conanopencv_opencv_videoio_aliasResourceDirectories>
+    <Conanopencv_opencv_videoio_aliasLibraryDirectories></Conanopencv_opencv_videoio_aliasLibraryDirectories>
+    <Conanopencv_opencv_videoio_aliasLibraries></Conanopencv_opencv_videoio_aliasLibraries>
+    <Conanopencv_opencv_videoio_aliasSystemLibs></Conanopencv_opencv_videoio_aliasSystemLibs>
+  </PropertyGroup>
+</Project>

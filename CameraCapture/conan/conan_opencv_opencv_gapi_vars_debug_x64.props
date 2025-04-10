@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanopencv_opencv_gapiRootFolder>C:/Users/Asiula/.conan2/p/b/opence148378c1f603/p</Conanopencv_opencv_gapiRootFolder>
+    <Conanopencv_opencv_gapiBinaryDirectories></Conanopencv_opencv_gapiBinaryDirectories>
+    <Conanopencv_opencv_gapiCompilerFlags></Conanopencv_opencv_gapiCompilerFlags>
+    <Conanopencv_opencv_gapiLinkerFlags></Conanopencv_opencv_gapiLinkerFlags>
+    <Conanopencv_opencv_gapiPreprocessorDefinitions></Conanopencv_opencv_gapiPreprocessorDefinitions>
+    <Conanopencv_opencv_gapiIncludeDirectories>$(Conanopencv_opencv_gapiRootFolder)/include;</Conanopencv_opencv_gapiIncludeDirectories>
+    <Conanopencv_opencv_gapiResourceDirectories>$(Conanopencv_opencv_gapiRootFolder)/res;</Conanopencv_opencv_gapiResourceDirectories>
+    <Conanopencv_opencv_gapiLibraryDirectories>$(Conanopencv_opencv_gapiRootFolder)/lib;</Conanopencv_opencv_gapiLibraryDirectories>
+    <Conanopencv_opencv_gapiLibraries>opencv_gapi4100d.lib;</Conanopencv_opencv_gapiLibraries>
+    <Conanopencv_opencv_gapiSystemLibs>ws2_32.lib;wsock32.lib;</Conanopencv_opencv_gapiSystemLibs>
+  </PropertyGroup>
+</Project>

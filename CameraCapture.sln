@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CameraCapture", "CameraCapture\CameraCapture.vcxproj", "{481F94AF-6C69-4BB7-8685-6503D237801C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{481F94AF-6C69-4BB7-8685-6503D237801C}.Debug|x64.ActiveCfg = Debug|x64
+		{481F94AF-6C69-4BB7-8685-6503D237801C}.Debug|x64.Build.0 = Debug|x64
+		{481F94AF-6C69-4BB7-8685-6503D237801C}.Debug|x86.ActiveCfg = Debug|Win32
+		{481F94AF-6C69-4BB7-8685-6503D237801C}.Debug|x86.Build.0 = Debug|Win32
+		{481F94AF-6C69-4BB7-8685-6503D237801C}.Release|x64.ActiveCfg = Release|x64
+		{481F94AF-6C69-4BB7-8685-6503D237801C}.Release|x64.Build.0 = Release|x64
+		{481F94AF-6C69-4BB7-8685-6503D237801C}.Release|x86.ActiveCfg = Release|Win32
+		{481F94AF-6C69-4BB7-8685-6503D237801C}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0290E6EA-C9FB-4945-88EF-2C1345C5A5AB}
+	EndGlobalSection
+EndGlobal

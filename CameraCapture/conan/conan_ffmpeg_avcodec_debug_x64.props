@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets">
+    <Import Condition="'$(conan_ffmpeg_avutil_props_imported)' != 'True'" Project="conan_ffmpeg_avutil.props"/>
+    <Import Condition="'$(conan_ffmpeg_swresample_props_imported)' != 'True'" Project="conan_ffmpeg_swresample.props"/>
+    <Import Condition="'$(conan_zlib_props_imported)' != 'True'" Project="conan_zlib.props"/>
+    <Import Condition="'$(conan_xz_utils_props_imported)' != 'True'" Project="conan_xz_utils.props"/>
+    <Import Condition="'$(conan_libiconv_props_imported)' != 'True'" Project="conan_libiconv.props"/>
+    <Import Condition="'$(conan_openjpeg_props_imported)' != 'True'" Project="conan_openjpeg.props"/>
+    <Import Condition="'$(conan_openh264_props_imported)' != 'True'" Project="conan_openh264.props"/>
+    <Import Condition="'$(conan_vorbis_props_imported)' != 'True'" Project="conan_vorbis.props"/>
+    <Import Condition="'$(conan_opus_props_imported)' != 'True'" Project="conan_opus.props"/>
+    <Import Condition="'$(conan_libx264_props_imported)' != 'True'" Project="conan_libx264.props"/>
+    <Import Condition="'$(conan_libx265_props_imported)' != 'True'" Project="conan_libx265.props"/>
+    <Import Condition="'$(conan_libvpx_props_imported)' != 'True'" Project="conan_libvpx.props"/>
+    <Import Condition="'$(conan_libmp3lame_props_imported)' != 'True'" Project="conan_libmp3lame.props"/>
+    <Import Condition="'$(conan_libfdk_aac_props_imported)' != 'True'" Project="conan_libfdk_aac.props"/>
+    <Import Condition="'$(conan_libwebp_props_imported)' != 'True'" Project="conan_libwebp.props"/>
+    <Import Condition="'$(conan_libaom-av1_props_imported)' != 'True'" Project="conan_libaom-av1.props"/>
+    <Import Condition="'$(conan_dav1d_props_imported)' != 'True'" Project="conan_dav1d.props"/>
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="conan_ffmpeg_avcodec_vars_debug_x64.props"/>
+  </ImportGroup>
+  <PropertyGroup>
+    <ConanDebugPath>$(Conanffmpeg_avcodecBinaryDirectories);$(ConanDebugPath)</ConanDebugPath>
+    <LocalDebuggerEnvironment>PATH=$(ConanDebugPath);%PATH%</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(Conanffmpeg_avcodecIncludeDirectories)%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>$(Conanffmpeg_avcodecPreprocessorDefinitions)%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions>$(Conanffmpeg_avcodecCompilerFlags) %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(Conanffmpeg_avcodecLibraryDirectories)%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>$(Conanffmpeg_avcodecLibraries)%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>$(Conanffmpeg_avcodecSystemLibs)%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>$(Conanffmpeg_avcodecLinkerFlags) %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <Midl>
+      <AdditionalIncludeDirectories>$(Conanffmpeg_avcodecIncludeDirectories)%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>$(Conanffmpeg_avcodecIncludeDirectories)%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>$(Conanffmpeg_avcodecPreprocessorDefinitions)%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+</Project>

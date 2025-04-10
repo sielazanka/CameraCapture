@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanbrotli_brotlidecRootFolder>C:/Users/Asiula/.conan2/p/brotl79757a5cae055/p</Conanbrotli_brotlidecRootFolder>
+    <Conanbrotli_brotlidecBinaryDirectories></Conanbrotli_brotlidecBinaryDirectories>
+    <Conanbrotli_brotlidecCompilerFlags></Conanbrotli_brotlidecCompilerFlags>
+    <Conanbrotli_brotlidecLinkerFlags></Conanbrotli_brotlidecLinkerFlags>
+    <Conanbrotli_brotlidecPreprocessorDefinitions></Conanbrotli_brotlidecPreprocessorDefinitions>
+    <Conanbrotli_brotlidecIncludeDirectories></Conanbrotli_brotlidecIncludeDirectories>
+    <Conanbrotli_brotlidecResourceDirectories></Conanbrotli_brotlidecResourceDirectories>
+    <Conanbrotli_brotlidecLibraryDirectories>$(Conanbrotli_brotlidecRootFolder)/lib;</Conanbrotli_brotlidecLibraryDirectories>
+    <Conanbrotli_brotlidecLibraries>brotlidec.lib;</Conanbrotli_brotlidecLibraries>
+    <Conanbrotli_brotlidecSystemLibs></Conanbrotli_brotlidecSystemLibs>
+  </PropertyGroup>
+</Project>

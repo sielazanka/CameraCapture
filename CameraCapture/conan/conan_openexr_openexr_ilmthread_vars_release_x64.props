@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanopenexr_openexr_ilmthreadRootFolder>C:/Users/Asiula/.conan2/p/opene8f3b887522885/p</Conanopenexr_openexr_ilmthreadRootFolder>
+    <Conanopenexr_openexr_ilmthreadBinaryDirectories></Conanopenexr_openexr_ilmthreadBinaryDirectories>
+    <Conanopenexr_openexr_ilmthreadCompilerFlags></Conanopenexr_openexr_ilmthreadCompilerFlags>
+    <Conanopenexr_openexr_ilmthreadLinkerFlags></Conanopenexr_openexr_ilmthreadLinkerFlags>
+    <Conanopenexr_openexr_ilmthreadPreprocessorDefinitions></Conanopenexr_openexr_ilmthreadPreprocessorDefinitions>
+    <Conanopenexr_openexr_ilmthreadIncludeDirectories></Conanopenexr_openexr_ilmthreadIncludeDirectories>
+    <Conanopenexr_openexr_ilmthreadResourceDirectories></Conanopenexr_openexr_ilmthreadResourceDirectories>
+    <Conanopenexr_openexr_ilmthreadLibraryDirectories>$(Conanopenexr_openexr_ilmthreadRootFolder)/lib;</Conanopenexr_openexr_ilmthreadLibraryDirectories>
+    <Conanopenexr_openexr_ilmthreadLibraries>IlmThread-3_2.lib;</Conanopenexr_openexr_ilmthreadLibraries>
+    <Conanopenexr_openexr_ilmthreadSystemLibs></Conanopenexr_openexr_ilmthreadSystemLibs>
+  </PropertyGroup>
+</Project>

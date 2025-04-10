@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <ConanfreetypeRootFolder>C:/Users/Asiula/.conan2/p/b/freet7d443b0a00db2/p</ConanfreetypeRootFolder>
+    <ConanfreetypeBinaryDirectories></ConanfreetypeBinaryDirectories>
+    <ConanfreetypeCompilerFlags></ConanfreetypeCompilerFlags>
+    <ConanfreetypeLinkerFlags></ConanfreetypeLinkerFlags>
+    <ConanfreetypePreprocessorDefinitions></ConanfreetypePreprocessorDefinitions>
+    <ConanfreetypeIncludeDirectories></ConanfreetypeIncludeDirectories>
+    <ConanfreetypeResourceDirectories></ConanfreetypeResourceDirectories>
+    <ConanfreetypeLibraryDirectories>$(ConanfreetypeRootFolder)/lib;</ConanfreetypeLibraryDirectories>
+    <ConanfreetypeLibraries>freetype.lib;</ConanfreetypeLibraries>
+    <ConanfreetypeSystemLibs></ConanfreetypeSystemLibs>
+  </PropertyGroup>
+</Project>

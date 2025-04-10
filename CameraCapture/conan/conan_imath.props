@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+	<ImportGroup Label="PropertySheets">
+		<Import Condition="'$(conan_imath_imath_config_props_imported)' != 'True'" Project="conan_imath_imath_config.props"/>
+		<Import Condition="'$(conan_imath_imath_lib_props_imported)' != 'True'" Project="conan_imath_imath_lib.props"/>
+	</ImportGroup>
+	<PropertyGroup>
+		<conan_imath_props_imported>True</conan_imath_props_imported>
+	</PropertyGroup>
+</Project>

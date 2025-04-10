@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanlibwebp_sharpyuvRootFolder>C:/Users/Asiula/.conan2/p/b/libwe66e7b7a625ce2/p</Conanlibwebp_sharpyuvRootFolder>
+    <Conanlibwebp_sharpyuvBinaryDirectories></Conanlibwebp_sharpyuvBinaryDirectories>
+    <Conanlibwebp_sharpyuvCompilerFlags></Conanlibwebp_sharpyuvCompilerFlags>
+    <Conanlibwebp_sharpyuvLinkerFlags></Conanlibwebp_sharpyuvLinkerFlags>
+    <Conanlibwebp_sharpyuvPreprocessorDefinitions></Conanlibwebp_sharpyuvPreprocessorDefinitions>
+    <Conanlibwebp_sharpyuvIncludeDirectories></Conanlibwebp_sharpyuvIncludeDirectories>
+    <Conanlibwebp_sharpyuvResourceDirectories></Conanlibwebp_sharpyuvResourceDirectories>
+    <Conanlibwebp_sharpyuvLibraryDirectories>$(Conanlibwebp_sharpyuvRootFolder)/lib;</Conanlibwebp_sharpyuvLibraryDirectories>
+    <Conanlibwebp_sharpyuvLibraries>sharpyuv.lib;</Conanlibwebp_sharpyuvLibraries>
+    <Conanlibwebp_sharpyuvSystemLibs></Conanlibwebp_sharpyuvSystemLibs>
+  </PropertyGroup>
+</Project>

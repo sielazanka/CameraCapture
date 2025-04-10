@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanopencv_opencv_objdetectRootFolder>C:/Users/Asiula/.conan2/p/b/opence148378c1f603/p</Conanopencv_opencv_objdetectRootFolder>
+    <Conanopencv_opencv_objdetectBinaryDirectories></Conanopencv_opencv_objdetectBinaryDirectories>
+    <Conanopencv_opencv_objdetectCompilerFlags></Conanopencv_opencv_objdetectCompilerFlags>
+    <Conanopencv_opencv_objdetectLinkerFlags></Conanopencv_opencv_objdetectLinkerFlags>
+    <Conanopencv_opencv_objdetectPreprocessorDefinitions></Conanopencv_opencv_objdetectPreprocessorDefinitions>
+    <Conanopencv_opencv_objdetectIncludeDirectories>$(Conanopencv_opencv_objdetectRootFolder)/include;</Conanopencv_opencv_objdetectIncludeDirectories>
+    <Conanopencv_opencv_objdetectResourceDirectories>$(Conanopencv_opencv_objdetectRootFolder)/res;</Conanopencv_opencv_objdetectResourceDirectories>
+    <Conanopencv_opencv_objdetectLibraryDirectories>$(Conanopencv_opencv_objdetectRootFolder)/lib;</Conanopencv_opencv_objdetectLibraryDirectories>
+    <Conanopencv_opencv_objdetectLibraries>opencv_objdetect4100d.lib;</Conanopencv_opencv_objdetectLibraries>
+    <Conanopencv_opencv_objdetectSystemLibs></Conanopencv_opencv_objdetectSystemLibs>
+  </PropertyGroup>
+</Project>

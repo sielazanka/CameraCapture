@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets">
+    <Import Condition="'$(conan_opencv_opencv_imgproc_props_imported)' != 'True'" Project="conan_opencv_opencv_imgproc.props"/>
+    <Import Condition="'$(conan_zlib_props_imported)' != 'True'" Project="conan_zlib.props"/>
+    <Import Condition="'$(conan_openjpeg_props_imported)' != 'True'" Project="conan_openjpeg.props"/>
+    <Import Condition="'$(conan_libpng_props_imported)' != 'True'" Project="conan_libpng.props"/>
+    <Import Condition="'$(conan_libjpeg_props_imported)' != 'True'" Project="conan_libjpeg.props"/>
+    <Import Condition="'$(conan_libtiff_props_imported)' != 'True'" Project="conan_libtiff.props"/>
+    <Import Condition="'$(conan_openexr_props_imported)' != 'True'" Project="conan_openexr.props"/>
+    <Import Condition="'$(conan_libwebp_props_imported)' != 'True'" Project="conan_libwebp.props"/>
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="conan_opencv_opencv_imgcodecs_vars_release_x64.props"/>
+  </ImportGroup>
+  <PropertyGroup>
+    <ConanDebugPath>$(Conanopencv_opencv_imgcodecsBinaryDirectories);$(ConanDebugPath)</ConanDebugPath>
+    <LocalDebuggerEnvironment>PATH=$(ConanDebugPath);%PATH%</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(Conanopencv_opencv_imgcodecsIncludeDirectories)%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>$(Conanopencv_opencv_imgcodecsPreprocessorDefinitions)%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions>$(Conanopencv_opencv_imgcodecsCompilerFlags) %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(Conanopencv_opencv_imgcodecsLibraryDirectories)%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>$(Conanopencv_opencv_imgcodecsLibraries)%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>$(Conanopencv_opencv_imgcodecsSystemLibs)%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>$(Conanopencv_opencv_imgcodecsLinkerFlags) %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <Midl>
+      <AdditionalIncludeDirectories>$(Conanopencv_opencv_imgcodecsIncludeDirectories)%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>$(Conanopencv_opencv_imgcodecsIncludeDirectories)%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>$(Conanopencv_opencv_imgcodecsPreprocessorDefinitions)%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+</Project>

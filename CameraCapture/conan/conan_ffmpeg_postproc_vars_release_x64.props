@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanffmpeg_postprocRootFolder>C:/Users/Asiula/.conan2/p/ffmpead42680332504/p</Conanffmpeg_postprocRootFolder>
+    <Conanffmpeg_postprocBinaryDirectories></Conanffmpeg_postprocBinaryDirectories>
+    <Conanffmpeg_postprocCompilerFlags></Conanffmpeg_postprocCompilerFlags>
+    <Conanffmpeg_postprocLinkerFlags></Conanffmpeg_postprocLinkerFlags>
+    <Conanffmpeg_postprocPreprocessorDefinitions></Conanffmpeg_postprocPreprocessorDefinitions>
+    <Conanffmpeg_postprocIncludeDirectories></Conanffmpeg_postprocIncludeDirectories>
+    <Conanffmpeg_postprocResourceDirectories></Conanffmpeg_postprocResourceDirectories>
+    <Conanffmpeg_postprocLibraryDirectories>$(Conanffmpeg_postprocRootFolder)/lib;</Conanffmpeg_postprocLibraryDirectories>
+    <Conanffmpeg_postprocLibraries>postproc.lib;</Conanffmpeg_postprocLibraries>
+    <Conanffmpeg_postprocSystemLibs></Conanffmpeg_postprocSystemLibs>
+  </PropertyGroup>
+</Project>

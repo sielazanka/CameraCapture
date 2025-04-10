@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanlibfdk_aac_fdk-aacRootFolder>C:/Users/Asiula/.conan2/p/libfd615fcaf5b2b15/p</Conanlibfdk_aac_fdk-aacRootFolder>
+    <Conanlibfdk_aac_fdk-aacBinaryDirectories></Conanlibfdk_aac_fdk-aacBinaryDirectories>
+    <Conanlibfdk_aac_fdk-aacCompilerFlags></Conanlibfdk_aac_fdk-aacCompilerFlags>
+    <Conanlibfdk_aac_fdk-aacLinkerFlags></Conanlibfdk_aac_fdk-aacLinkerFlags>
+    <Conanlibfdk_aac_fdk-aacPreprocessorDefinitions></Conanlibfdk_aac_fdk-aacPreprocessorDefinitions>
+    <Conanlibfdk_aac_fdk-aacIncludeDirectories></Conanlibfdk_aac_fdk-aacIncludeDirectories>
+    <Conanlibfdk_aac_fdk-aacResourceDirectories></Conanlibfdk_aac_fdk-aacResourceDirectories>
+    <Conanlibfdk_aac_fdk-aacLibraryDirectories>$(Conanlibfdk_aac_fdk-aacRootFolder)/lib;</Conanlibfdk_aac_fdk-aacLibraryDirectories>
+    <Conanlibfdk_aac_fdk-aacLibraries>fdk-aac.lib;</Conanlibfdk_aac_fdk-aacLibraries>
+    <Conanlibfdk_aac_fdk-aacSystemLibs></Conanlibfdk_aac_fdk-aacSystemLibs>
+  </PropertyGroup>
+</Project>

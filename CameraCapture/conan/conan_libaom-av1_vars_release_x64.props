@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanlibaom-av1RootFolder>C:/Users/Asiula/.conan2/p/libao5a109c175bbd2/p</Conanlibaom-av1RootFolder>
+    <Conanlibaom-av1BinaryDirectories></Conanlibaom-av1BinaryDirectories>
+    <Conanlibaom-av1CompilerFlags></Conanlibaom-av1CompilerFlags>
+    <Conanlibaom-av1LinkerFlags></Conanlibaom-av1LinkerFlags>
+    <Conanlibaom-av1PreprocessorDefinitions></Conanlibaom-av1PreprocessorDefinitions>
+    <Conanlibaom-av1IncludeDirectories></Conanlibaom-av1IncludeDirectories>
+    <Conanlibaom-av1ResourceDirectories></Conanlibaom-av1ResourceDirectories>
+    <Conanlibaom-av1LibraryDirectories>$(Conanlibaom-av1RootFolder)/lib;</Conanlibaom-av1LibraryDirectories>
+    <Conanlibaom-av1Libraries>aom.lib;</Conanlibaom-av1Libraries>
+    <Conanlibaom-av1SystemLibs></Conanlibaom-av1SystemLibs>
+  </PropertyGroup>
+</Project>

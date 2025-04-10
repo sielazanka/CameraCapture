@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanopencv_opencv_imgcodecsRootFolder>C:/Users/Asiula/.conan2/p/opencbf41ba2612dcc/p</Conanopencv_opencv_imgcodecsRootFolder>
+    <Conanopencv_opencv_imgcodecsBinaryDirectories></Conanopencv_opencv_imgcodecsBinaryDirectories>
+    <Conanopencv_opencv_imgcodecsCompilerFlags></Conanopencv_opencv_imgcodecsCompilerFlags>
+    <Conanopencv_opencv_imgcodecsLinkerFlags></Conanopencv_opencv_imgcodecsLinkerFlags>
+    <Conanopencv_opencv_imgcodecsPreprocessorDefinitions></Conanopencv_opencv_imgcodecsPreprocessorDefinitions>
+    <Conanopencv_opencv_imgcodecsIncludeDirectories>$(Conanopencv_opencv_imgcodecsRootFolder)/include;</Conanopencv_opencv_imgcodecsIncludeDirectories>
+    <Conanopencv_opencv_imgcodecsResourceDirectories>$(Conanopencv_opencv_imgcodecsRootFolder)/res;</Conanopencv_opencv_imgcodecsResourceDirectories>
+    <Conanopencv_opencv_imgcodecsLibraryDirectories>$(Conanopencv_opencv_imgcodecsRootFolder)/lib;</Conanopencv_opencv_imgcodecsLibraryDirectories>
+    <Conanopencv_opencv_imgcodecsLibraries>opencv_imgcodecs4100.lib;</Conanopencv_opencv_imgcodecsLibraries>
+    <Conanopencv_opencv_imgcodecsSystemLibs></Conanopencv_opencv_imgcodecsSystemLibs>
+  </PropertyGroup>
+</Project>

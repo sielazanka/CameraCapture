@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanopencv_opencv_mlRootFolder>C:/Users/Asiula/.conan2/p/opencbf41ba2612dcc/p</Conanopencv_opencv_mlRootFolder>
+    <Conanopencv_opencv_mlBinaryDirectories></Conanopencv_opencv_mlBinaryDirectories>
+    <Conanopencv_opencv_mlCompilerFlags></Conanopencv_opencv_mlCompilerFlags>
+    <Conanopencv_opencv_mlLinkerFlags></Conanopencv_opencv_mlLinkerFlags>
+    <Conanopencv_opencv_mlPreprocessorDefinitions></Conanopencv_opencv_mlPreprocessorDefinitions>
+    <Conanopencv_opencv_mlIncludeDirectories>$(Conanopencv_opencv_mlRootFolder)/include;</Conanopencv_opencv_mlIncludeDirectories>
+    <Conanopencv_opencv_mlResourceDirectories>$(Conanopencv_opencv_mlRootFolder)/res;</Conanopencv_opencv_mlResourceDirectories>
+    <Conanopencv_opencv_mlLibraryDirectories>$(Conanopencv_opencv_mlRootFolder)/lib;</Conanopencv_opencv_mlLibraryDirectories>
+    <Conanopencv_opencv_mlLibraries>opencv_ml4100.lib;</Conanopencv_opencv_mlLibraries>
+    <Conanopencv_opencv_mlSystemLibs></Conanopencv_opencv_mlSystemLibs>
+  </PropertyGroup>
+</Project>

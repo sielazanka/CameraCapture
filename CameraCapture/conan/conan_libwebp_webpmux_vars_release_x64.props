@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanlibwebp_webpmuxRootFolder>C:/Users/Asiula/.conan2/p/libwee3ebc9ce689f7/p</Conanlibwebp_webpmuxRootFolder>
+    <Conanlibwebp_webpmuxBinaryDirectories></Conanlibwebp_webpmuxBinaryDirectories>
+    <Conanlibwebp_webpmuxCompilerFlags></Conanlibwebp_webpmuxCompilerFlags>
+    <Conanlibwebp_webpmuxLinkerFlags></Conanlibwebp_webpmuxLinkerFlags>
+    <Conanlibwebp_webpmuxPreprocessorDefinitions></Conanlibwebp_webpmuxPreprocessorDefinitions>
+    <Conanlibwebp_webpmuxIncludeDirectories></Conanlibwebp_webpmuxIncludeDirectories>
+    <Conanlibwebp_webpmuxResourceDirectories></Conanlibwebp_webpmuxResourceDirectories>
+    <Conanlibwebp_webpmuxLibraryDirectories>$(Conanlibwebp_webpmuxRootFolder)/lib;</Conanlibwebp_webpmuxLibraryDirectories>
+    <Conanlibwebp_webpmuxLibraries>webpmux.lib;</Conanlibwebp_webpmuxLibraries>
+    <Conanlibwebp_webpmuxSystemLibs></Conanlibwebp_webpmuxSystemLibs>
+  </PropertyGroup>
+</Project>

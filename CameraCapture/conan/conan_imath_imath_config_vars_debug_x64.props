@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanimath_imath_configRootFolder>C:/Users/Asiula/.conan2/p/b/imathbec479d06dc50/p</Conanimath_imath_configRootFolder>
+    <Conanimath_imath_configBinaryDirectories></Conanimath_imath_configBinaryDirectories>
+    <Conanimath_imath_configCompilerFlags></Conanimath_imath_configCompilerFlags>
+    <Conanimath_imath_configLinkerFlags></Conanimath_imath_configLinkerFlags>
+    <Conanimath_imath_configPreprocessorDefinitions></Conanimath_imath_configPreprocessorDefinitions>
+    <Conanimath_imath_configIncludeDirectories></Conanimath_imath_configIncludeDirectories>
+    <Conanimath_imath_configResourceDirectories></Conanimath_imath_configResourceDirectories>
+    <Conanimath_imath_configLibraryDirectories>$(Conanimath_imath_configRootFolder)/lib;</Conanimath_imath_configLibraryDirectories>
+    <Conanimath_imath_configLibraries></Conanimath_imath_configLibraries>
+    <Conanimath_imath_configSystemLibs></Conanimath_imath_configSystemLibs>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+	<ImportGroup Label="PropertySheets">
+		<Import Condition="'$(conan_brotli_brotlicommon_props_imported)' != 'True'" Project="conan_brotli_brotlicommon.props"/>
+		<Import Condition="'$(conan_brotli_brotlidec_props_imported)' != 'True'" Project="conan_brotli_brotlidec.props"/>
+		<Import Condition="'$(conan_brotli_brotlienc_props_imported)' != 'True'" Project="conan_brotli_brotlienc.props"/>
+	</ImportGroup>
+	<PropertyGroup>
+		<conan_brotli_props_imported>True</conan_brotli_props_imported>
+	</PropertyGroup>
+</Project>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conandav1dRootFolder>C:/Users/Asiula/.conan2/p/b/dav1d1d59ea5bd604e/p</Conandav1dRootFolder>
+    <Conandav1dBinaryDirectories></Conandav1dBinaryDirectories>
+    <Conandav1dCompilerFlags></Conandav1dCompilerFlags>
+    <Conandav1dLinkerFlags></Conandav1dLinkerFlags>
+    <Conandav1dPreprocessorDefinitions></Conandav1dPreprocessorDefinitions>
+    <Conandav1dIncludeDirectories></Conandav1dIncludeDirectories>
+    <Conandav1dResourceDirectories></Conandav1dResourceDirectories>
+    <Conandav1dLibraryDirectories>$(Conandav1dRootFolder)/lib;</Conandav1dLibraryDirectories>
+    <Conandav1dLibraries>dav1d.lib;</Conandav1dLibraries>
+    <Conandav1dSystemLibs></Conandav1dSystemLibs>
+  </PropertyGroup>
+</Project>

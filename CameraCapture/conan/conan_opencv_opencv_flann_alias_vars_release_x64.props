@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanopencv_opencv_flann_aliasRootFolder>C:/Users/Asiula/.conan2/p/opencbf41ba2612dcc/p</Conanopencv_opencv_flann_aliasRootFolder>
+    <Conanopencv_opencv_flann_aliasBinaryDirectories></Conanopencv_opencv_flann_aliasBinaryDirectories>
+    <Conanopencv_opencv_flann_aliasCompilerFlags></Conanopencv_opencv_flann_aliasCompilerFlags>
+    <Conanopencv_opencv_flann_aliasLinkerFlags></Conanopencv_opencv_flann_aliasLinkerFlags>
+    <Conanopencv_opencv_flann_aliasPreprocessorDefinitions></Conanopencv_opencv_flann_aliasPreprocessorDefinitions>
+    <Conanopencv_opencv_flann_aliasIncludeDirectories></Conanopencv_opencv_flann_aliasIncludeDirectories>
+    <Conanopencv_opencv_flann_aliasResourceDirectories></Conanopencv_opencv_flann_aliasResourceDirectories>
+    <Conanopencv_opencv_flann_aliasLibraryDirectories></Conanopencv_opencv_flann_aliasLibraryDirectories>
+    <Conanopencv_opencv_flann_aliasLibraries></Conanopencv_opencv_flann_aliasLibraries>
+    <Conanopencv_opencv_flann_aliasSystemLibs></Conanopencv_opencv_flann_aliasSystemLibs>
+  </PropertyGroup>
+</Project>

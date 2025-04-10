@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+	<ImportGroup Label="PropertySheets">
+		<Import Condition="'$(conan_openexr_openexr_openexrconfig_props_imported)' != 'True'" Project="conan_openexr_openexr_openexrconfig.props"/>
+		<Import Condition="'$(conan_openexr_openexr_iexconfig_props_imported)' != 'True'" Project="conan_openexr_openexr_iexconfig.props"/>
+		<Import Condition="'$(conan_openexr_openexr_ilmthreadconfig_props_imported)' != 'True'" Project="conan_openexr_openexr_ilmthreadconfig.props"/>
+		<Import Condition="'$(conan_openexr_openexr_iex_props_imported)' != 'True'" Project="conan_openexr_openexr_iex.props"/>
+		<Import Condition="'$(conan_openexr_openexr_ilmthread_props_imported)' != 'True'" Project="conan_openexr_openexr_ilmthread.props"/>
+		<Import Condition="'$(conan_openexr_openexr_openexrcore_props_imported)' != 'True'" Project="conan_openexr_openexr_openexrcore.props"/>
+		<Import Condition="'$(conan_openexr_openexr_openexr_props_imported)' != 'True'" Project="conan_openexr_openexr_openexr.props"/>
+		<Import Condition="'$(conan_openexr_openexr_openexrutil_props_imported)' != 'True'" Project="conan_openexr_openexr_openexrutil.props"/>
+	</ImportGroup>
+	<PropertyGroup>
+		<conan_openexr_props_imported>True</conan_openexr_props_imported>
+	</PropertyGroup>
+</Project>

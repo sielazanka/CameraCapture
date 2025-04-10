@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+	<ImportGroup Label="PropertySheets">
+		<Import Condition="'$(conan_libwebp_webpdecoder_props_imported)' != 'True'" Project="conan_libwebp_webpdecoder.props"/>
+		<Import Condition="'$(conan_libwebp_webp_props_imported)' != 'True'" Project="conan_libwebp_webp.props"/>
+		<Import Condition="'$(conan_libwebp_sharpyuv_props_imported)' != 'True'" Project="conan_libwebp_sharpyuv.props"/>
+		<Import Condition="'$(conan_libwebp_webpdemux_props_imported)' != 'True'" Project="conan_libwebp_webpdemux.props"/>
+		<Import Condition="'$(conan_libwebp_webpmux_props_imported)' != 'True'" Project="conan_libwebp_webpmux.props"/>
+	</ImportGroup>
+	<PropertyGroup>
+		<conan_libwebp_props_imported>True</conan_libwebp_props_imported>
+	</PropertyGroup>
+</Project>

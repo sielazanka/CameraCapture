@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanffmpeg_avdeviceRootFolder>C:/Users/Asiula/.conan2/p/b/ffmpe05163431dfcae/p</Conanffmpeg_avdeviceRootFolder>
+    <Conanffmpeg_avdeviceBinaryDirectories></Conanffmpeg_avdeviceBinaryDirectories>
+    <Conanffmpeg_avdeviceCompilerFlags></Conanffmpeg_avdeviceCompilerFlags>
+    <Conanffmpeg_avdeviceLinkerFlags></Conanffmpeg_avdeviceLinkerFlags>
+    <Conanffmpeg_avdevicePreprocessorDefinitions></Conanffmpeg_avdevicePreprocessorDefinitions>
+    <Conanffmpeg_avdeviceIncludeDirectories></Conanffmpeg_avdeviceIncludeDirectories>
+    <Conanffmpeg_avdeviceResourceDirectories></Conanffmpeg_avdeviceResourceDirectories>
+    <Conanffmpeg_avdeviceLibraryDirectories>$(Conanffmpeg_avdeviceRootFolder)/lib;</Conanffmpeg_avdeviceLibraryDirectories>
+    <Conanffmpeg_avdeviceLibraries>avdevice.lib;</Conanffmpeg_avdeviceLibraries>
+    <Conanffmpeg_avdeviceSystemLibs>ole32.lib;psapi.lib;strmiids.lib;uuid.lib;oleaut32.lib;shlwapi.lib;gdi32.lib;vfw32.lib;</Conanffmpeg_avdeviceSystemLibs>
+  </PropertyGroup>
+</Project>

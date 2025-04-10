@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanffmpeg_avfilterRootFolder>C:/Users/Asiula/.conan2/p/ffmpead42680332504/p</Conanffmpeg_avfilterRootFolder>
+    <Conanffmpeg_avfilterBinaryDirectories></Conanffmpeg_avfilterBinaryDirectories>
+    <Conanffmpeg_avfilterCompilerFlags></Conanffmpeg_avfilterCompilerFlags>
+    <Conanffmpeg_avfilterLinkerFlags></Conanffmpeg_avfilterLinkerFlags>
+    <Conanffmpeg_avfilterPreprocessorDefinitions></Conanffmpeg_avfilterPreprocessorDefinitions>
+    <Conanffmpeg_avfilterIncludeDirectories></Conanffmpeg_avfilterIncludeDirectories>
+    <Conanffmpeg_avfilterResourceDirectories></Conanffmpeg_avfilterResourceDirectories>
+    <Conanffmpeg_avfilterLibraryDirectories>$(Conanffmpeg_avfilterRootFolder)/lib;</Conanffmpeg_avfilterLibraryDirectories>
+    <Conanffmpeg_avfilterLibraries>avfilter.lib;</Conanffmpeg_avfilterLibraries>
+    <Conanffmpeg_avfilterSystemLibs></Conanffmpeg_avfilterSystemLibs>
+  </PropertyGroup>
+</Project>

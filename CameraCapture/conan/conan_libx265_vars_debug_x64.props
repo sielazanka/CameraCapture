@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanlibx265RootFolder>C:/Users/Asiula/.conan2/p/b/libx24cb2232e06d5c/p</Conanlibx265RootFolder>
+    <Conanlibx265BinaryDirectories></Conanlibx265BinaryDirectories>
+    <Conanlibx265CompilerFlags></Conanlibx265CompilerFlags>
+    <Conanlibx265LinkerFlags></Conanlibx265LinkerFlags>
+    <Conanlibx265PreprocessorDefinitions></Conanlibx265PreprocessorDefinitions>
+    <Conanlibx265IncludeDirectories></Conanlibx265IncludeDirectories>
+    <Conanlibx265ResourceDirectories></Conanlibx265ResourceDirectories>
+    <Conanlibx265LibraryDirectories>$(Conanlibx265RootFolder)/lib;</Conanlibx265LibraryDirectories>
+    <Conanlibx265Libraries>x265.lib;</Conanlibx265Libraries>
+    <Conanlibx265SystemLibs></Conanlibx265SystemLibs>
+  </PropertyGroup>
+</Project>

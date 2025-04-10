@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="ConanVariables">
+    <Conanlibdeflate__libdeflateRootFolder>C:/Users/Asiula/.conan2/p/b/libde4a902848a4230/p</Conanlibdeflate__libdeflateRootFolder>
+    <Conanlibdeflate__libdeflateBinaryDirectories></Conanlibdeflate__libdeflateBinaryDirectories>
+    <Conanlibdeflate__libdeflateCompilerFlags></Conanlibdeflate__libdeflateCompilerFlags>
+    <Conanlibdeflate__libdeflateLinkerFlags></Conanlibdeflate__libdeflateLinkerFlags>
+    <Conanlibdeflate__libdeflatePreprocessorDefinitions></Conanlibdeflate__libdeflatePreprocessorDefinitions>
+    <Conanlibdeflate__libdeflateIncludeDirectories></Conanlibdeflate__libdeflateIncludeDirectories>
+    <Conanlibdeflate__libdeflateResourceDirectories></Conanlibdeflate__libdeflateResourceDirectories>
+    <Conanlibdeflate__libdeflateLibraryDirectories>$(Conanlibdeflate__libdeflateRootFolder)/lib;</Conanlibdeflate__libdeflateLibraryDirectories>
+    <Conanlibdeflate__libdeflateLibraries>deflatestatic.lib;</Conanlibdeflate__libdeflateLibraries>
+    <Conanlibdeflate__libdeflateSystemLibs></Conanlibdeflate__libdeflateSystemLibs>
+  </PropertyGroup>
+</Project>

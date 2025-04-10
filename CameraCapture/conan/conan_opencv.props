@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+	<ImportGroup Label="PropertySheets">
+		<Import Condition="'$(conan_opencv_opencv_calib3d_props_imported)' != 'True'" Project="conan_opencv_opencv_calib3d.props"/>
+		<Import Condition="'$(conan_opencv_opencv_calib3d_alias_props_imported)' != 'True'" Project="conan_opencv_opencv_calib3d_alias.props"/>
+		<Import Condition="'$(conan_opencv_opencv_core_props_imported)' != 'True'" Project="conan_opencv_opencv_core.props"/>
+		<Import Condition="'$(conan_opencv_opencv_core_alias_props_imported)' != 'True'" Project="conan_opencv_opencv_core_alias.props"/>
+		<Import Condition="'$(conan_opencv_opencv_dnn_props_imported)' != 'True'" Project="conan_opencv_opencv_dnn.props"/>
+		<Import Condition="'$(conan_opencv_opencv_dnn_alias_props_imported)' != 'True'" Project="conan_opencv_opencv_dnn_alias.props"/>
+		<Import Condition="'$(conan_opencv_opencv_features2d_props_imported)' != 'True'" Project="conan_opencv_opencv_features2d.props"/>
+		<Import Condition="'$(conan_opencv_opencv_features2d_alias_props_imported)' != 'True'" Project="conan_opencv_opencv_features2d_alias.props"/>
+		<Import Condition="'$(conan_opencv_opencv_flann_props_imported)' != 'True'" Project="conan_opencv_opencv_flann.props"/>
+		<Import Condition="'$(conan_opencv_opencv_flann_alias_props_imported)' != 'True'" Project="conan_opencv_opencv_flann_alias.props"/>
+		<Import Condition="'$(conan_opencv_opencv_gapi_props_imported)' != 'True'" Project="conan_opencv_opencv_gapi.props"/>
+		<Import Condition="'$(conan_opencv_opencv_gapi_alias_props_imported)' != 'True'" Project="conan_opencv_opencv_gapi_alias.props"/>
+		<Import Condition="'$(conan_opencv_opencv_highgui_props_imported)' != 'True'" Project="conan_opencv_opencv_highgui.props"/>
+		<Import Condition="'$(conan_opencv_opencv_highgui_alias_props_imported)' != 'True'" Project="conan_opencv_opencv_highgui_alias.props"/>
+		<Import Condition="'$(conan_opencv_opencv_imgcodecs_props_imported)' != 'True'" Project="conan_opencv_opencv_imgcodecs.props"/>
+		<Import Condition="'$(conan_opencv_opencv_imgcodecs_alias_props_imported)' != 'True'" Project="conan_opencv_opencv_imgcodecs_alias.props"/>
+		<Import Condition="'$(conan_opencv_opencv_imgproc_props_imported)' != 'True'" Project="conan_opencv_opencv_imgproc.props"/>
+		<Import Condition="'$(conan_opencv_opencv_imgproc_alias_props_imported)' != 'True'" Project="conan_opencv_opencv_imgproc_alias.props"/>
+		<Import Condition="'$(conan_opencv_opencv_ml_props_imported)' != 'True'" Project="conan_opencv_opencv_ml.props"/>
+		<Import Condition="'$(conan_opencv_opencv_ml_alias_props_imported)' != 'True'" Project="conan_opencv_opencv_ml_alias.props"/>
+		<Import Condition="'$(conan_opencv_opencv_objdetect_props_imported)' != 'True'" Project="conan_opencv_opencv_objdetect.props"/>
+		<Import Condition="'$(conan_opencv_opencv_objdetect_alias_props_imported)' != 'True'" Project="conan_opencv_opencv_objdetect_alias.props"/>
+		<Import Condition="'$(conan_opencv_opencv_photo_props_imported)' != 'True'" Project="conan_opencv_opencv_photo.props"/>
+		<Import Condition="'$(conan_opencv_opencv_photo_alias_props_imported)' != 'True'" Project="conan_opencv_opencv_photo_alias.props"/>
+		<Import Condition="'$(conan_opencv_opencv_stitching_props_imported)' != 'True'" Project="conan_opencv_opencv_stitching.props"/>
+		<Import Condition="'$(conan_opencv_opencv_stitching_alias_props_imported)' != 'True'" Project="conan_opencv_opencv_stitching_alias.props"/>
+		<Import Condition="'$(conan_opencv_opencv_video_props_imported)' != 'True'" Project="conan_opencv_opencv_video.props"/>
+		<Import Condition="'$(conan_opencv_opencv_video_alias_props_imported)' != 'True'" Project="conan_opencv_opencv_video_alias.props"/>
+		<Import Condition="'$(conan_opencv_opencv_videoio_props_imported)' != 'True'" Project="conan_opencv_opencv_videoio.props"/>
+		<Import Condition="'$(conan_opencv_opencv_videoio_alias_props_imported)' != 'True'" Project="conan_opencv_opencv_videoio_alias.props"/>
+	</ImportGroup>
+	<PropertyGroup>
+		<conan_opencv_props_imported>True</conan_opencv_props_imported>
+	</PropertyGroup>
+</Project>
